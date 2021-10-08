@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+    <style>
+    body {
+  background-color: lightblue;
+  width: 960px;
+  margin: auto;
 
-You can use the [editor on GitHub](https://github.com/znh12/zhangyujie.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+h1 {
+  color: white;
+  text-align: center;
+}
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/znh12/zhangyujie.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#para1{
+    color: blue;
+}
+#para0{
+    color: brown;
+}
+.table1{
+    color: mediumpurple;
+}
+*{
+    font-style: oblique;
+}
+div h1{
+    font-stretch: expanded;
+}
+.picture1{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 1000px;
+}
+</style>
+</head>
+<body>
+        <meta charset="utf-8"/>
+        <title>张宇洁的个人主页</title>
+    </head>
+    <body>
+        <h1>个人信息</h1>
+        <h2>学业情况</h2>
+        <p id="para0">年级：21级   班级：药学2班</p>
+        <p id="para1">课程表</p>
+        <table class="table1">
+            <tr>
+                <th>日</th>
+                <td>周一</td>
+                <td>周二</td>
+                <td>周三</td>
+                <td>周四</td>
+                <td>周五</td>
+            </tr>
+            <tr>
+                <th>第1-2节</th>
+                <td></td>
+                <td>高数C</td>
+                <td></td>
+                <td>普化B</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第3-4节</th>
+                <td></td>
+                <td>普化B</td>
+                <td>体适能</td>
+                <td>高数C</td>
+                <td>计概上机</td>
+            </tr>
+            <tr>
+                <th>第5-6节</th>
+                <td>普化实验</td>
+                <td></td>
+                <td></td>
+                <td>高级英语听说</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第7-8节</th>
+                <td>普化实验</td>
+                <td>计概</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>第9-10节</th>
+                <td></td>
+                <td>计概 思修</td>
+                <td>当代世界与中国</td>
+                <td>一国两制与基本法</td>
+            </tr>
+            <tr>
+                <th>第11-12节</th>
+                <td></td>
+                <td>思修</td>
+                <td>当代世界与中国</td>
+                <td>一国两制与基本法</td>
+                <td></td>
+            </tr>
+        </table>
+        <p>如果不够直观的话其实有图</p>
+        <img class="picture1" src="C:\Users\znh\Desktop\个人网站\课程表.png">
