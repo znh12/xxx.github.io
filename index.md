@@ -1,53 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head>
-    <style>
-    body {
-  background-color: lightblue;
-  width: 960px;
-  margin: auto;
-
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-#para1{
-    color: blue;
-}
-#para0{
-    color: brown;
-}
-.table1{
-    color: mediumpurple;
-}
-*{
-    font-style: oblique;
-}
-div h1{
-    font-stretch: expanded;
-}
-.picture1{
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    width: 1000px;
-}
-</style>
-</head>
-<body>
         <meta charset="utf-8"/>
-        <title>张宇洁的个人主页</title>
     </head>
     <body>
-        <h1>个人信息</h1>
-        <h2>学业情况</h2>
+        <h1>张宇洁的个人网页</h1>
+        <h2>个人信息</h2>
+        <h3>学业情况</h3>
         <p id="para0">年级：21级   班级：药学2班</p>
         <p id="para1">课程表</p>
         <table class="table1">
@@ -107,5 +66,4 @@ div h1{
                 <td></td>
             </tr>
         </table>
-        <p>如果不够直观的话其实有图</p>
-        <img class="picture1" src="C:\Users\znh\Desktop\个人网站\课程表.png">
+    
