@@ -2,6 +2,7 @@
 <html lang="zh-cn">
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../新建文本文档（2).css"/>
     </head>
     <body>
         <h1>张宇洁的个人网页</h1>
