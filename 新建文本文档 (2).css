@@ -1,0 +1,31 @@
+style
+body {
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#para1{
+    color: blue;
+}
+#para0{
+    color: brown;
+}
+.table1{
+    color: mediumpurple;
+}
+*{
+    font-style: oblique;
+}
+div h1{
+    font-stretch: expanded;
+}
+</style>
